@@ -1,32 +1,35 @@
 body{
-	margin:0;
-	padding:0;
+	margin: 0;
+	padding: 0;
 }
 .container{
-	width:90%;
-	margin: 0 auto;
+	width: 90%
+	margin:0 auto;
 }
-header{
-	min-height: 80px;
-	background-color:green;
-	margin-bottom: 50px
+.navbar{
+     overflow: hidden;
 }
-.main{
-	overflow: hidden;
+.logo{
+	float: left;
+	width: 10%;
 }
-.content{
-	min-height: 400px;
-	background-color: green;
-	width: 60%;
-	float:left;
+.menu{
+	float: right;
+
+	padding-top: 25px
+
 }
-.sidebar{
-	min-height: 400px;
-	background-color: green;
-	width: 38%;
-	float:right;
+.menu ul{
+	float: left;
+
 }
-footer{
-	min-height: 80px;
-	background-color:green;
-	margin-top: 50px
+.menu ul li{
+	display: inline-block;
+	padding: 0 20px;  
+}
+.menu ul li a{
+	text-decoration: none;
+}
+.manu ul li a:hover{
+	color: red
+}
